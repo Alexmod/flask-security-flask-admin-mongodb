@@ -49,8 +49,6 @@ See https://help.yahoo.com/kb/SLN27791.html
     # Start the Flask development web server
     python manage.py runserver
 
-    # Or if you have Fabric installed:
-    fab runserver
 
 Point your web browser to http://localhost:5000/
 
