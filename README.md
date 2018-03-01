@@ -1,5 +1,5 @@
-![alt Flask-Admin ](https://habrastorage.org/webt/z7/px/gy/z7pxgyd_xbxh2mdm1_unc38o0bo.png)
-![alt Flask-User ](https://habrastorage.org/webt/hq/ep/wj/hqepwjev4pucazix5ztzqw9pvk0.png)
+![alt Flask-Admin ](https://habrastorage.org/webt/fb/w2/42/fbw242ettd1fay8l4rwt3xtd-ac.png)
+![alt Flask-security ](https://habrastorage.org/webt/hq/ep/wj/hqepwjev4pucazix5ztzqw9pvk0.png)
 
 # Flask-User & Flask-Admin & MongoDB in one app
 
