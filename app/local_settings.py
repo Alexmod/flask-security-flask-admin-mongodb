@@ -32,7 +32,7 @@ SECURITY_CHANGEABLE = True
 BABEL_TRANSLATION_DIRECTORIES = os.path.join(os.path.abspath(
     os.path.dirname(__file__)), 'translations/')
 
-BABEL_DEFAULT_LOCALE = 'ru'
+BABEL_DEFAULT_LOCALE = 'ru_RU'
 
 # Flask-Mail settings
 # For smtp.gmail.com to work, you MUST set "Allow less secure apps"
