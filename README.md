@@ -1,7 +1,7 @@
 ![alt Flask-Admin ](https://habrastorage.org/webt/fb/w2/42/fbw242ettd1fay8l4rwt3xtd-ac.png)
 ![alt Flask-security ](https://habrastorage.org/webt/hq/ep/wj/hqepwjev4pucazix5ztzqw9pvk0.png)
 
-# Flask-User & Flask-Admin & MongoDB in one app
+# Flask-Securyty & Flask-Admin & MongoDB in one app
 
 This code base serves as starting point for writing your next Flask application.
 
