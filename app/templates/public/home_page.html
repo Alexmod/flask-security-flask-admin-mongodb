@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+
+{% block content %}
+    <h2>{%trans%}Home Page{%endtrans%}</h2>
+    <p><a href={{ url_for('security.register') }}>{%trans%}Register{%endtrans%}</a></p>
+    <p><a href={{ url_for('security.login') }}>{%trans%}Login{%endtrans%}</a></p>
+    <p><a href={{ url_for('public.home_page') }}>{%trans%}Home Page{%endtrans%}</a> (accessible to anyone)</p>
+    <p><a href={{ url_for('members.member_page') }}>{%trans%}Profile{%endtrans%}</a> (login_required: member@example.com / Password1)</p>
+    <p><a href={{ url_for('admin.index') }}>{%trans%}Admin Page{%endtrans%}</a> (roles_required: admin@example.com / Password1)</p>
+    <p><a href={{ url_for('security.logout') }}>{%trans%}Logout{%endtrans%}</a></p>
+{% endblock %}

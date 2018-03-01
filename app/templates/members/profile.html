@@ -1,0 +1,5 @@
+{% extends "layout.html" %}
+{% block content %}
+  <h2>{%trans%}Profile{%endtrans%}</h2>
+  <a href="{{ url_for('security.change_password') }}">{{ _('Change Password') }}</a>
+{% endblock %}

@@ -1,0 +1,12 @@
+bcrypt==3.1.4
+Flask_Admin==1.5.0
+Flask_BabelEx==0.9.3
+Flask==0.12.2
+Flask_Script==2.0.6
+Flask_Bootstrap==3.3.7.1
+Flask_Security==3.0.0
+Flask_WTF==0.14.2
+Flask_Mail==0.9.1
+Flask_Migrate==2.1.1
+WTForms==2.1
+flask_mongoengine==0.9.5
