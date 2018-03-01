@@ -25,7 +25,7 @@ We assume that you have `git`, `virtualenv` and `mongoDB` installed.
     . env/bin/activate
     mkdir -p ~/www/my_app
     cd www
-    git clone https://github.com/Alexmod/Flask-User-and-Flask-admin.git  my_app
+    git clone https://github.com/Alexmod/flask-security-flask-admin-mongodb.git  my_app
     cd my_app/
     pip install -r requirements.txt
 
