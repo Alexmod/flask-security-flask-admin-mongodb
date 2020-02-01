@@ -1,16 +1,17 @@
+import os.path as op
+
 from flask import Flask
-from flask_mail import Mail
-from flask_migrate import Migrate
-from flask_wtf.csrf import CSRFProtect
+from flask_admin import Admin
+from flask_admin.base import MenuLink
+from flask_admin.contrib.fileadmin import FileAdmin
+from flask_admin.contrib.mongoengine import ModelView
 from flask_babelex import Babel
 from flask_bootstrap import Bootstrap
-from flask_admin import Admin
-from flask_admin.contrib.fileadmin import FileAdmin
-from flask_admin.base import MenuLink
-from flask_admin.contrib.mongoengine import ModelView
+from flask_mail import Mail
+from flask_migrate import Migrate
 from flask_mongoengine import MongoEngine
-from flask_security import Security, MongoEngineUserDatastore
-import os.path as op
+from flask_security import MongoEngineUserDatastore, Security
+from flask_wtf.csrf import CSRFProtect
 
 
 # Instantiate Flask extensions
