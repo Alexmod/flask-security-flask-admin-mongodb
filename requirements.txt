@@ -20,7 +20,7 @@ Flask-SQLAlchemy==2.4.1
 Flask-WTF==0.14.2
 greenlet==0.4.15
 itsdangerous==1.1.0
-Jinja2==2.11.1
+Jinja2==2.11.3
 Mako==1.1.1
 MarkupSafe==1.1.1
 mongoengine==0.19.1
