@@ -8,11 +8,11 @@ This code base serves as starting point for writing your next Flask application.
 ## Code characteristics
 
 * Well organized directories with lots of comments
-    * app
-        * models
-        * static
-        * templates
-        * views
+	* app
+		* models
+		* static
+		* templates
+		* views
 * Sends error emails to admins for unhandled exceptions
 
 
@@ -20,16 +20,16 @@ This code base serves as starting point for writing your next Flask application.
 
 We assume that you have `git`, `virtualenv` and `mongoDB` installed.
 
-    cd ~
-    virtualenv env
-    . env/bin/activate
-    mkdir -p ~/www/my_app
-    cd www
-    git clone https://github.com/Alexmod/flask-security-flask-admin-mongodb.git  my_app
-    cd my_app/
-    pip install -r requirements.txt
+cd ~
+virtualenv env
+. env/bin/activate
+mkdir -p ~/www/my_app
+cd www
+git clone https://github.com/Alexmod/flask-security-flask-admin-mongodb.git  my_app
+cd my_app/
+pip install -r requirements.txt
 
-   
+
 # Configuring SMTP
 
 Edit the `local_settings.py` file.
@@ -46,11 +46,11 @@ See https://help.yahoo.com/kb/SLN27791.html
 
 ## Running the app
 
-    # Start the Flask development web server
-    python manage.py runserver
+# Start the Flask development web server
+flask run --host=0.0.0.0
 
 
-Point your web browser to http://localhost:5000/
+Point your web browser to http://your_ip:5000/
 
 You can make use of the following users:
 - email `user@example.com` with password `Password1`.
