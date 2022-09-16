@@ -28,7 +28,7 @@ importlib-metadata==4.5.0
 isort==5.8.0
 itsdangerous==2.0.1
 Jinja2==3.0.1
-Mako==1.1.4
+Mako==1.2.2
 MarkupSafe==2.0.1
 mongoengine==0.23.1
 msgpack==1.0.2
